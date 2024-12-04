@@ -9,6 +9,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service2", "Service2\Servic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service1", "Service1\Service1.csproj", "{B11E872A-5D00-427B-8C80-66B551EE130C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MessageBroker", "MessageBroker", "{FE120DE1-0265-49C3-9C52-476029CCB095}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageBroker.Service1", "MessageBroker.Service1\MessageBroker.Service1.csproj", "{1717B634-5917-4B1B-9707-3DFA931B420E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageBroker.Service2", "MessageBroker.Service2\MessageBroker.Service2.csproj", "{7124E88C-9D5A-4C9A-A2EE-3B360024F3CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +29,14 @@ Global
 		{B11E872A-5D00-427B-8C80-66B551EE130C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B11E872A-5D00-427B-8C80-66B551EE130C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B11E872A-5D00-427B-8C80-66B551EE130C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1717B634-5917-4B1B-9707-3DFA931B420E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1717B634-5917-4B1B-9707-3DFA931B420E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1717B634-5917-4B1B-9707-3DFA931B420E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1717B634-5917-4B1B-9707-3DFA931B420E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7124E88C-9D5A-4C9A-A2EE-3B360024F3CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7124E88C-9D5A-4C9A-A2EE-3B360024F3CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7124E88C-9D5A-4C9A-A2EE-3B360024F3CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7124E88C-9D5A-4C9A-A2EE-3B360024F3CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,5 +44,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{1783C75E-6089-4C76-A64C-A425BF9DC7B6} = {597C9F56-C6AB-4262-8657-3737DFA568AE}
 		{B11E872A-5D00-427B-8C80-66B551EE130C} = {597C9F56-C6AB-4262-8657-3737DFA568AE}
+		{1717B634-5917-4B1B-9707-3DFA931B420E} = {FE120DE1-0265-49C3-9C52-476029CCB095}
+		{7124E88C-9D5A-4C9A-A2EE-3B360024F3CC} = {FE120DE1-0265-49C3-9C52-476029CCB095}
 	EndGlobalSection
 EndGlobal
